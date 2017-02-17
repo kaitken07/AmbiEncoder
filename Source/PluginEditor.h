@@ -42,7 +42,8 @@ class AmbiEncoderAudioProcessorEditor  : public AudioProcessorEditor,
 public:
     //==============================================================================
     AmbiEncoderAudioProcessorEditor (StereoPannerAudioProcessor& p);
-    ~AmbiEncoderAudioProcessorEditor();
+	AmbiEncoderAudioProcessorEditor(AmbiEncoderAudioProcessor & p);
+	~AmbiEncoderAudioProcessorEditor();
 
     //==============================================================================
     //[UserMethods]     -- You can add your own custom methods in this section.
